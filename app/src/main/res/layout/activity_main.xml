@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/purple_200"
+        app:itemIconTint="#fff"
+        app:itemTextColor="#fff"
+        app:menu="@menu/res"
+        android:id="@+id/bottomnav"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flwrap">
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="174dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginEnd="112dp"
+            android:text="Logout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="260dp">
+
+        </Button>
+
+        <com.androidplot.xy.XYPlot
+            android:id="@+id/plot"
+            style="@style/APDefacto.Light"
+            android:layout_width="match_parent"
+            android:layout_height="644dp"
+            android:layout_gravity="center"
+            app:title="XY PLOT"
+            app:domainTitle="domain"
+            app:rangeTitle="rang"
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="662dp"
+        android:id="@+id/linear"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

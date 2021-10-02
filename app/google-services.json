@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "506151774642",
+    "project_id": "assingment-8089c",
+    "storage_bucket": "assingment-8089c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506151774642:android:13eb219bfd69094337dcab",
+        "android_client_info": {
+          "package_name": "com.example.assingment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506151774642-j3c8j2jlsiajudgmcq6mnalccjofsgc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assingment",
+            "certificate_hash": "3a06f39a3f6d6471b5133e4ac5561d79be0a8560"
+          }
+        },
+        {
+          "client_id": "506151774642-s3j3mlt1kk7pj73bklnojgp389dth1rv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCjm15Lpm2OPF1rR0lrl7ldKaycitRw1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506151774642-s3j3mlt1kk7pj73bklnojgp389dth1rv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
